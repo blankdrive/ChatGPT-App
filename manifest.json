@@ -1,0 +1,23 @@
+{
+  "update_url": "https://clients2.google.com/service/update2/crx",
+  "name": "ChatGPT App",
+  "description": "Unofficial ChatGPT App for Chrome",
+  "version": "2.1.0",
+  "manifest_version": 2,
+  "permissions": [
+    "webview",
+    "audioCapture",
+    "videoCapture",
+    "desktopCapture",
+    "browser",
+    "notifications"
+  ],
+  "app": {
+    "background": {
+      "scripts": [
+        "background.js"
+      ]
+    }
+  },
+  "icons": {"512":"logo.png"}
+}
